@@ -23,6 +23,6 @@ public class HomeController {
 
     @GetMapping("/admin")
     public String admin(){
-        return homeService.getWelcomeMessage();
+        return homeService.getAdminMessage();
     }
 }
